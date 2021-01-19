@@ -17,7 +17,10 @@ Do the following:
 
    HINT: no function required
 */
-
+let votingAge = 18
+if (votingAge => 18){
+  console.log(true);
+}
 
 
 /*
@@ -30,8 +33,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
+let var1 = 2
+let var2 = 3
+if (var1 < var2){
+  var1 = var1 + 1;
+}
+console.log(var1);
 
 
 
@@ -45,7 +52,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let date = "1999"
+Number(date);
+console.log(date);
 
 
 
@@ -58,10 +67,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    return a * b;
   }
-
+  console.log(multiply(1,3));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
